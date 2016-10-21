@@ -1,0 +1,15 @@
+{
+  "name": "repo",
+  "version": "0.0.1",
+  "description": "Do you even Repo",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Sleeper",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^3.1.2"
+  }
+}
