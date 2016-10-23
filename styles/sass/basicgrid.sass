@@ -1,0 +1,17 @@
+html
+  box-sizing: border-box
+
+*,
+*::before,
+*::after
+  box-sizing: inherit
+
+%col
+  float: left
+  padding-right: 15px
+  padding-left: 15px
+
+@for $i from 1 through 12
+  .col-#{$i}
+    @extend %col
+    width: percentage($i/12)
