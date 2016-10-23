@@ -8,13 +8,32 @@ nav
       >a
         display: block
         width: auto
-        height: auto
-        line-height: normal
+        height: 36px
+        line-height: 36px
         color: #fff
-        background: #000
+        background: #000 url('') no-repeat
         text-decoration: none
+        text-align: center
+        font-weight: bold
+        font-size: .875rem
+        padding: 0
 
       >a:hover
         background: #fff
         background-position: left
         text-decoration: none
+
+    >li:first-child a
+      border-top-left-radius: 10px
+
+    >li:last-child a
+      border-top-right-radius: 10px
+    .active
+      background: url('') no-repeat
+    .active:hover
+      background: url('') no-repeat
+
+nav::after
+  content: " "
+  display: table
+  clear: both
